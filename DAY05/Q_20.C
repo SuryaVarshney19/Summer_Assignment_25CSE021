@@ -1,8 +1,7 @@
 //Find largest prime factor
 #include <stdio.h>
 int main() {
-    long long n, maxPrime = -1;
-    
+    long long n, maxPrime = 1;
     printf("Enter a positive integer: ");
     scanf("%lld", &n);
     while (n % 2 == 0) {
